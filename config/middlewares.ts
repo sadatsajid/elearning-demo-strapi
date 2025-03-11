@@ -6,7 +6,12 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:3000']
+      origin: [
+        'http://localhost:3000', 
+        'https://elearning-demo-nextjs-cr95-i0bteuyza-sadatsajjds.vercel.app',
+      ],
+      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+      credentials: true,
     },
   },
   'strapi::poweredBy',
