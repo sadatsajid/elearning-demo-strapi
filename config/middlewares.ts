@@ -8,7 +8,7 @@ module.exports = [
       headers: '*',
       origin: [
         'http://localhost:3000', 
-        'https://elearning-demo-nextjs-cr95-i0bteuyza-sadatsajjds.vercel.app',
+        'https://elearning-demo-nextjs-crg5-i0bteuyza-sadatsajids-projects.vercel.app',
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       credentials: true,
